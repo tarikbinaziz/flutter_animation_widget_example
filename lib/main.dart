@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation_widgets/animation_widgets/animated_align.dart';
+import 'package:flutter_animation_widgets/animation_widgets/animated_container.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const AnimatedAlignExample(),
+      home: const AnimatedContainerExample(),
     );
   }
 }
