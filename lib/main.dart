@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_animation_widgets/animation_widgets/animated_cross_fade.dart';
+
+import 'animation_widgets/animated_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CrossFadeDemo(),
+      home: const AnimatedListExample(),
     );
   }
 }
